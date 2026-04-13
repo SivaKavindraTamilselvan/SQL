@@ -79,3 +79,13 @@ select e.Employee_ID,e.Employee_Name,e.Manager_ID,et.levels + 1
 from employees e join emp_tree et
 on e.Manager_ID = et.Employee_ID)
 select * from emp_tree order by levels;
+
+with recursive emp_tree as(
+select Employee_ID,Employee_Name,Manager_ID,1 as levels
+from employees where Manager_ID is null
+union all
+select e.Employee_ID,e.Employee_Name,e.Manager_ID,et.levels + 1
+from employees e join emp_tree et
+on e.Manager_ID = et.Employee_ID
+where et.levels<2)
+select * from emp_tree order by levels;
