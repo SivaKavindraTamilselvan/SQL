@@ -10,3 +10,5 @@ Encapsulate business logic using stored procedures and functions.
 
 
 ## screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7204308-71a4-4bf9-a56f-63d428e46453" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da693df4-2261-4fb4-856c-6841da00f3d9" />
