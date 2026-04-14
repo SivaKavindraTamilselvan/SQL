@@ -12,3 +12,5 @@ Design a normalized database schema for a complex business scenario (e.g., an eC
 - [x]  **Documentation and Testing**: Document your schema and SQL scripts; write test queries to demonstrate that all constraints, triggers, and transactions work as intended
 
 ## screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/abecc1ee-50ad-45b5-8ea7-581eae0176ac" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a478076c-b70d-49e6-bea3-072df7bebdd0" />
